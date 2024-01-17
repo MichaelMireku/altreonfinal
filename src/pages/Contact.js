@@ -53,7 +53,7 @@ const Contact = () => {
     <ContactSection>
       <h2>Contact Us</h2>
       <p>Have questions or want to discuss a project? Reach out to us!</p>
-      <form name="contact" method="POST" netlify>
+      <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
         <label htmlFor="name">Your Name</label>
         <input type="text" id="name" name="name" required />
 
